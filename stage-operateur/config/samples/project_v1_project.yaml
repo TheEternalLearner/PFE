@@ -1,0 +1,11 @@
+apiVersion: project.my.domain/v1
+kind: Project
+metadata:
+  name: project-sample
+spec:
+  # Add fields here
+  projectLimits:
+    limits.cpu: "10"
+    limits.memory: 20Gi
+
+
